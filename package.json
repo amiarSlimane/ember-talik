@@ -1,6 +1,6 @@
 {
   "name": "ember-talik",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -26,11 +26,10 @@
     "test:ember-compatibility": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^7.26.11",
     "ember-auto-import": "^2.4.2",
-    "talik": "^1.2.8",
-
-    "ember-cli-htmlbars": "^6.0.1"
+    "ember-cli-babel": "^7.26.11",
+    "ember-cli-htmlbars": "^6.0.1",
+    "talik": "^1.3.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -40,7 +39,6 @@
     "@glimmer/tracking": "^1.1.2",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
-
     "ember-cli": "~4.4.0",
     "ember-cli-dependency-checker": "^3.3.1",
     "ember-cli-inject-live-reload": "^2.1.0",
@@ -68,7 +66,6 @@
     "prettier": "^2.6.2",
     "qunit": "^2.19.1",
     "qunit-dom": "^2.0.0",
-
     "webpack": "^5.72.1"
   },
   "engines": {

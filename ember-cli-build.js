@@ -18,6 +18,9 @@ module.exports = function (defaults) {
         // extra webpack configuration goes here
       },
     },
+    babel: {
+      plugins: [require.resolve('ember-auto-import/babel-plugin')],
+    },
     // Add options here
   });
 
