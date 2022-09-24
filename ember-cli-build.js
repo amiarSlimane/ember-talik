@@ -4,6 +4,20 @@ const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 
 module.exports = function (defaults) {
   let app = new EmberAddon(defaults, {
+    autoImport: {
+      skipBabel: [
+        {
+          // when an already-babel-transpiled package like "mapbox-gl" is
+          // not skipped, it can produce errors in the production mode
+          // due to double transpilation
+          package: 'talik',
+          semverRange: '*',
+        },
+      ],
+      webpack: {
+        // extra webpack configuration goes here
+      },
+    },
     // Add options here
   });
 
