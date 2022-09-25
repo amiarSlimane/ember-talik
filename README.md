@@ -1,6 +1,6 @@
 # ember-talik
 
-[Short description of the addon.]
+Ember.js wrap for talik comments integration library
 
 
 ## Compatibility
@@ -18,8 +18,12 @@ ember install ember-talik
 
 
 ## Usage
+To use Talik add Talik component to the place you want to render the component in your hbs file.
 
-[Longer description of how to use the addon in apps.]
+```
+<Talik/>
+
+```
 
 
 ## Contributing
